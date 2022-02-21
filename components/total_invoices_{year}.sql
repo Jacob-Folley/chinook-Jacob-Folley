@@ -1,0 +1,6 @@
+SELECT COUNT(a.InvoiceDate)
+FROM Invoice a 
+WHERE a.InvoiceDate BETWEEN '2009-01-01 00:00:00' AND '2009-12-31 00:00:00';
+SELECT COUNT(a.InvoiceId)
+FROM Invoice a
+WHERE a.InvoiceDate BETWEEN '2011-01-01 00:00:00' AND '2011-12-31 00:00:00';
